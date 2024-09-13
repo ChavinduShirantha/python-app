@@ -122,7 +122,7 @@ def test():
     return jsonify({'status': 'success', 'message': 'API is running!'}), 200
 
 @app.route('/new', methods=['GET'])
-def test():
+def test_new():
     print("Test route called.")
     return jsonify({'status': 'success', 'message': 'API is running!'}), 200
 
